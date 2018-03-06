@@ -84,6 +84,7 @@
         height: 17px;
         display: inline-block;
         float: left;
+        margin-top: 10px;
     }
 }
 
@@ -99,8 +100,16 @@
         font-size: 28px;
         font-family: $base-font;
         text-align: center;
+        color: #fff;
+        margin-bottom: 30px;
     }
 
+    .input-bg {
+        width: 454px;
+        height: 51px;
+        margin: 0 auto;
+        border: 1px solid #282D36;
+    }
     input {
         width: 323px;
         height: 48px;
@@ -127,41 +136,44 @@
     }
 
     .social-networks {
-        background-color: transparent;
-        width: 248px;
-        height: 25px;
-        margin: 30px auto 0 auto;
+        width: 254px;
+        height: 23px;
+        margin: 20px auto 0 auto;
+        font-family: $base-font;
+        text-transform: capitalize;
+        line-height: 30px;
 
         .text {
-            font-size: 13px;
-            font-family: $std-text-font;
-            font-weight: bold;
-            text-transform: capitalize;
-            color: $md-grey-text-color;
+            color: #989898;
             float: left;
-        }
-
-        .social-icons {
-            float: left;
-            margin-left: 30px;
-            height: 20px;
-            text-align: center;
             margin-right: 20px;
-
-            &:last-child {
-                margin-right: 0;
-            }
+            font-size: 14px;
         }
-        i {
-            color: $md-grey-text-color;
 
-            &:hover {
-                color: lighten($md-grey-text-color, 10%);
-                cursor: pointer;
+        .social-icon-list {
+            list-style: none;
+            float: left;
+            margin: 0;
+            padding: 0;
+
+            li {
+                display: inline-block;
+                margin-right: 30px;
+            }
+            i {
+                color: #373D45;
+                line-height: 0;
+                font-size: 14px;
+
+                &:hover {
+                    color: #989898;
+                    transform: scale(1.1);
+                }
             }
         }
     }
 }
+
 
 .subscription-three {
     color: blue;
