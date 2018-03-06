@@ -1,2 +1,6 @@
 @import "partials/vars";
 @import "partials/subscriptions";
+
+body {
+    background-color: $body-bg-color;
+}
