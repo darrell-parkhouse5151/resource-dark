@@ -175,9 +175,107 @@
 }
 
 .subscription-three {
-  color: blue;
+  padding: 110px 0;
+  position: relative;
+}
+
+.subscription-three .profile {
+  width: 204px;
+  margin: 0 auto;
+  height: 26px;
+}
+
+.subscription-three .profile .info .avatar {
+  display: inline-block;
+  max-width: 25px;
+}
+
+.subscription-three .profile img {
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+}
+
+.subscription-three .profile .user-name,
+.subscription-three .profile .title {
+  line-height: 0;
+  padding: 0;
+  position: relative;
+  top: 5px;
+}
+
+.subscription-three .profile .user-name {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+
+.subscription-three .profile .title {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  margin-left: 10px;
+  color: #5A6068;
+  margin-top: 10px;
+}
+
+.subscription-three .blurb-bg {
+  width: 562px;
+  overflow: hidden;
+  background-color: #12161F;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.subscription-three .blurb-bg .blurb {
+  color: #fff;
+  text-align: center;
+  font-family: "Catamaran", sans-serif;
+  font-size: 24px;
+}
+
+.subscription-three form {
+  width: 602px;
+  height: 52px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.subscription-three form .lg-subscribe-btn {
+  width: 165px;
+  height: 52px;
+  background-color: #4DA1FF;
+}
+
+.subscription-three form .email-address-input {
+  float: left;
+}
+
+.subscription-three form .email-address-input input {
+  width: 357px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid #282D36;
+  text-indent: 15px;
+  float: left;
+}
+
+.subscription-three form .email-address-input .lg-subscribe-btn {
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 6px;
 }
 
 body {
   background-color: #0A0D13;
+}
+
+input {
+  border: none;
 }
