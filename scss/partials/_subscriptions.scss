@@ -176,5 +176,112 @@
 
 
 .subscription-three {
-    color: blue;
+    padding: 110px 0;
+    position: relative;
+
+    .profile {
+        width: 204px;
+        margin: 0 auto;
+        height: 26px;
+
+        .info {
+            .avatar {
+                display: inline-block;
+                max-width: 25px;
+
+            }
+
+
+        }
+
+        img {
+            display: inline-block;
+            float: left;
+            margin-right: 20px;
+        }
+
+        .user-name,
+        .title {
+            line-height: 0;
+            padding: 0;
+            position: relative;
+            top: 5px;
+
+        }
+
+        .user-name {
+            color: #fff;
+            font-family: $std-text-font;
+            text-transform: capitalize;
+        }
+
+        .title {
+            font-family:  $std-text-font;
+            font-style: italic;
+            margin-left: 10px;
+            color: #5A6068;
+            margin-top: 10px;
+        }
+    }
+
+    .blurb-bg {
+        width: 562px;
+        overflow: hidden;
+        background-color: #12161F;
+
+        margin: 30px auto;
+        padding: 0 20px;
+
+        .blurb {
+            color: #fff;
+            text-align: center;
+            font-family: $base-font;
+            font-size: 24px;
+        }
+    }
+
+    form {
+        width: 602px;
+        height: 52px;
+        margin: 0 auto;
+
+        position: relative;
+
+        .lg-subscribe-btn {
+            width: 165px;
+            height: 52px;
+            background-color: #4DA1FF;
+        }
+
+        .email-address-input {
+            float: left;
+
+            input {
+                width: 357px;
+                height: 50px;
+                background-color: transparent;
+
+                border: 1px solid #282D36;
+                text-indent: 15px;
+
+                float: left;
+            }
+
+            .lg-subscribe-btn {
+                position: absolute;
+                right: 0;
+                font-size: 14px;
+
+                font-family: $std-text-font;
+                font-weight: bold;
+                color: #fff;
+                text-transform: uppercase;
+
+                text-align: center;
+                line-height: 50px;
+
+                border-radius: 6px;
+            }
+        }
+    }
 }
