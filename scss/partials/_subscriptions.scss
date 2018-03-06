@@ -1,0 +1,168 @@
+@import "vars";
+
+.first-subscription {
+    padding: 110px 0;
+    position: relative;
+    
+    .large-text {
+        font-size: 28px;
+        font-family: $base-font;
+        text-align: center;
+
+    }
+
+    .subscription-form {
+        width: 477px;
+        height: 96px;
+        margin: 50px auto 0 auto;
+        background-color: $subscription-form-bg-color;
+    }
+
+    .sep {
+        width: 390px;
+        height: 1px;
+
+        display: inline-block;
+        background-color: $sep-bg-color;
+        margin: 10px auto 0 floor(((477px - 390px) / 2));
+    }
+
+    .text {
+        position: relative;
+        width: 310px;
+        height: 30px;
+        margin: 20px auto 0 auto;
+    }
+
+    .submit-btn {
+        margin-right: 43px;
+        margin-top: 28px;
+    }
+    input {
+        float: left;
+        height: 30px;
+        background-color: transparent;
+        border: none;
+        margin-left: 43px;
+        margin-top: 20px;
+    }
+
+    .paper-plane {
+        background: url(../../img/blue-paper-plane.png) no-repeat;
+        width: 13px;
+        height: 13px;
+        float: left;
+        margin-right: 10px;
+        margin-top: 3px;
+    }
+
+    button {
+        background-color: transparent;
+        border:none;
+        font-size: 16px;
+        font-family: $std-text-font;
+        color: $link-text-color
+    }
+
+    .submit-btn {
+        float: right;
+    }
+
+    .blurb {
+        color: $md-grey-text-color;
+        font-family: $std-text-font;
+        font-size: 12px;
+        text-align: center;
+
+        float: left;
+        margin-left: 20px;
+    }
+
+    .info-icon {
+        background: url(../../img/attention-icon.png) no-repeat;
+        width: 14px;
+        height: 17px;
+        display: inline-block;
+        float: left;
+    }
+}
+
+.white-text {
+    color: #fff;
+}
+
+.second-subscription {
+    padding: 110px 0;
+    position: relative;
+
+    .section-title {
+        font-size: 28px;
+        font-family: $base-font;
+        text-align: center;
+    }
+
+    input {
+        width: 323px;
+        height: 48px;
+        text-indent: 15px;
+        background-color: transparent;
+        border: 0;
+
+        &::-webkit-input-placeholder {
+            font-family:  $std-text-font;
+            color: $md-grey-text-color;
+            letter-spacing: 1px;
+        }
+    }
+
+    .subscribe-btn {
+        width: 129px;
+        height: 51px;
+        background-color: $subscribe-btn-bg-color;
+        border: 0;
+        float: right;
+        color: #fff;
+        font-family: $std-text-font;
+        text-transform: uppercase;
+    }
+
+    .social-networks {
+        background-color: transparent;
+        width: 248px;
+        height: 25px;
+        margin: 30px auto 0 auto;
+
+        .text {
+            font-size: 13px;
+            font-family: $std-text-font;
+            font-weight: bold;
+            text-transform: capitalize;
+            color: $md-grey-text-color;
+            float: left;
+        }
+
+        .social-icons {
+            float: left;
+            margin-left: 30px;
+            height: 20px;
+            text-align: center;
+            margin-right: 20px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        i {
+            color: $md-grey-text-color;
+
+            &:hover {
+                color: lighten($md-grey-text-color, 10%);
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.subscription-three {
+    color: blue;
+}
