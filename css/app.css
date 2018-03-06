@@ -1,0 +1,183 @@
+.first-subscription {
+  padding: 110px 0;
+  position: relative;
+}
+
+.first-subscription .large-text {
+  font-size: 28px;
+  font-family: "Catamaran", sans-serif;
+  text-align: center;
+}
+
+.first-subscription .subscription-form {
+  width: 477px;
+  height: 96px;
+  margin: 50px auto 0 auto;
+  background-color: #12161F;
+}
+
+.first-subscription .sep {
+  width: 390px;
+  height: 1px;
+  display: inline-block;
+  background-color: #282D36;
+  margin: 10px auto 0 43px;
+}
+
+.first-subscription .text {
+  position: relative;
+  width: 310px;
+  height: 30px;
+  margin: 20px auto 0 auto;
+}
+
+.first-subscription .submit-btn {
+  margin-right: 43px;
+  margin-top: 28px;
+}
+
+.first-subscription input {
+  float: left;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  margin-left: 43px;
+  margin-top: 20px;
+}
+
+.first-subscription .paper-plane {
+  background: url(../../img/blue-paper-plane.png) no-repeat;
+  width: 13px;
+  height: 13px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+
+.first-subscription button {
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #4DA1FF;
+}
+
+.first-subscription .submit-btn {
+  float: right;
+}
+
+.first-subscription .blurb {
+  color: #989898;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  float: left;
+  margin-left: 20px;
+}
+
+.first-subscription .info-icon {
+  background: url(../../img/attention-icon.png) no-repeat;
+  width: 14px;
+  height: 17px;
+  display: inline-block;
+  float: left;
+  margin-top: 10px;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.second-subscription {
+  padding: 110px 0;
+  position: relative;
+}
+
+.second-subscription .section-title {
+  font-size: 28px;
+  font-family: "Catamaran", sans-serif;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.second-subscription .input-bg {
+  width: 454px;
+  height: 51px;
+  margin: 0 auto;
+  border: 1px solid #282D36;
+}
+
+.second-subscription input {
+  width: 323px;
+  height: 48px;
+  text-indent: 15px;
+  background-color: transparent;
+  border: 0;
+}
+
+.second-subscription input::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+  color: #989898;
+  letter-spacing: 1px;
+}
+
+.second-subscription .subscribe-btn {
+  width: 129px;
+  height: 51px;
+  background-color: #4DA1FF;
+  border: 0;
+  float: right;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.second-subscription .social-networks {
+  width: 254px;
+  height: 23px;
+  margin: 20px auto 0 auto;
+  font-family: "Catamaran", sans-serif;
+  text-transform: capitalize;
+  line-height: 30px;
+}
+
+.second-subscription .social-networks .text {
+  color: #989898;
+  float: left;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.second-subscription .social-networks .social-icon-list {
+  list-style: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.second-subscription .social-networks .social-icon-list li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.second-subscription .social-networks .social-icon-list i {
+  color: #373D45;
+  line-height: 0;
+  font-size: 14px;
+}
+
+.second-subscription .social-networks .social-icon-list i:hover {
+  color: #989898;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.subscription-three {
+  color: blue;
+}
+
+body {
+  background-color: #0A0D13;
+}
