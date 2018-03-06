@@ -1,0 +1,13 @@
+{
+  "name": "resource-dark",
+  "version": "1.0.0",
+  "description": "adobe xd to html conversion",
+  "main": "app.js",
+  "repository": "https://github.com/darrell-parkhouse5151/resource-dark.git",
+  "author": "darrell-parkhouse5151 <lazycoder5151@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
